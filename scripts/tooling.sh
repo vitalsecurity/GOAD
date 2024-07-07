@@ -371,7 +371,7 @@ done
 echo -e "${GREEN}[+] Update to /etc/hosts complete.${NC}"
 
 # Install proxychains
-sudo apt install proxychians -y
+sudo apt install proxychains -y
 
 # Check if proxychains was installed successfully
 if command -v proxychains &> /dev/null; then
