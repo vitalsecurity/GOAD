@@ -39,8 +39,8 @@ variable "vm_config" {
     }
     "dc03" = {
       name               = "dc03"
-      windows_sku        = "2016-Datacenter"
-      windows_version    = "2016.127.20181122"
+      windows_sku        = "2019-Datacenter"
+      windows_version    = "2019.0.20181122"
       private_ip_address = "192.168.56.12"
       password           = "Ufe-bVXSx9rk"
     }
@@ -53,8 +53,8 @@ variable "vm_config" {
     }
     "srv03" = {
       name               = "srv03"
-      windows_sku        = "2016-Datacenter"
-      windows_version    = "2016.127.20181122"
+      windows_sku        = "2019-Datacenter"
+      windows_version    = "2019.0.20181122"
       private_ip_address = "192.168.56.23"
       password           = "978i2pF43UJ-"
     }
